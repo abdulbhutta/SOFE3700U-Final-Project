@@ -1,0 +1,67 @@
+body {
+	background-color: #c5d5cb;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32pt;
+ 
+}
+p {
+    text-align: center;
+    font-size: 12pt;
+}
+
+
+.jumbotron {
+    background-image: url(fall.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+.topnav a.active {
+    background-color: #c5d5cb;
+    color: white;
+}
+.btn {      
+    background-color: black;  
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 20px;
+    padding: 3px 3px;
+    text-align: right;
+    font-size: 10pt;
+}
