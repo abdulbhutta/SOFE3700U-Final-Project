@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>University DBMS's</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="assets/fonts.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body style="background-image: url(assets/img/background.svg);">
+    <!-- Put HTML Here -->
+
+
+    <header class="pageborder">
+        <nav>
+            <div class="nav-top-right font-inter">
+                    <a href="" class="nav-link desktop-only">Home</a>
+                    <a href="" class="nav-link desktop-only">FAQ</a>
+                    <a href="" class="nav-link"><i class="fas fa-th"></i></a>
+                    <a href="" class="nav-link"><i class="far fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="alias-manager-heading">
+            <div class="alias-manager-heading-left"><h1 class="font-metropolis"> Welcome, "Student First Name".</h1></div>
+            <div class="alias-manager-heading-right desktop-only"><h2 class="font-metropolis">ID:&nbsp</h2><h3 class="font-inter"><span style="font-weight: normal">"100######"</span></h3></div>
+        </div>
+    
+         
+    
+        <button class="font-metropolis generate-new-button" type="button">
+            Add Class
+        </button>
+             
+        <div class="currently-enrolled">
+            <div class="font-inter grayed">Currently Enrolled Courses</div>
+            <div class="notifications-toggle font-inter grayed">Notifications&nbsp<i class="fas fa-toggle-on" style="color:#3782e5; cursor: pointer"></i></div>
+        </div>
+        
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 1"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton1'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details1" class="font-metropolis email-component" style="display:none">
+
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 2"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton2'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details2" class="font-metropolis email-component" style="display:none">
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 3"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton3'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details3" class="font-metropolis email-component" style="display:none">
+
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 4"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton4'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details4" class="font-metropolis email-component" style="display:none">
+
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 5"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton5'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details5" class="font-metropolis email-component" style="display:none">
+
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+        <div class="details-parent">
+            <div class="email-component">
+                <div class="stacked email-component-name">
+                    <h3 class="font-metropolis">"Course Name 6"</h3>
+                    <button class="font-metropolis grayed" id='expandbutton6'>Show Details <i class="fas fa-angle-down"></i></button>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis faded">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis faded">Class Average</h3>
+                </div>
+                <div class="stacked desktop-only">
+                    <h2 class="font-metropolis">0</h2>
+                    <h3 style="font-weight: normal" class="font-metropolis grayed">Current Grade</h3>
+                </div>
+            </div>
+
+            <div id="details6" class="font-metropolis email-component" style="display:none">
+
+                <div class="stacked">
+                    <p class="grayed">Professor:</p>
+                    <p>"Prof Full Name"</p>
+                </div>
+                <div class="stacked desktop-only">
+                    <p class="grayed">Teaching Assistant:</p>
+                    <p>"TA Full Name"</p> 
+                </div>
+                <div class="delete-button-parent">
+                    <button class="font-metropolis delete-button" type="button">
+                        Drop Class
+                    </button>                    
+                </div>
+
+            </div>
+        </div>
+    </div>     
+    
+        <p class="additional-info font-inter">Note: Some assignments may have yet to be graded.</p>
+    </main>
+
+    <footer class="pageborder font-inter">
+            <a href="" class="nav-link" >Contact Service Desk</a>
+            <a href="" class="nav-link">Policies</a>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/4c55e184d1.js" crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
