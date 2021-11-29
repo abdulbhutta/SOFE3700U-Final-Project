@@ -21,6 +21,7 @@ To run the application on your computer,
   - password
   - dbname
  to your database information
+ 
  *Please note: As we continue to work on our project, you might need to change the database info on other files as well.
  
  4. Go to localhost/UniversityDBMS/home
