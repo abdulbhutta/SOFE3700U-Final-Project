@@ -15,12 +15,15 @@ To run the application on your computer,
   - Professors/header.php
   - RegistrarOffice/registrarHeader.php
   - Students/studentHeader.php
- Change the following variables 
+ 
+Change the following variables 
+
   - dbhost
   - username
   - password
   - dbname
- to your database information
+  
+to your database information
  
  *Please note: As we continue to work on our project, you might need to change the database info on other files as well.
  
