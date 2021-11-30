@@ -10,7 +10,7 @@ To run the application on your computer,
 3. Add the Database tables to your MySQL workbench.
   - Tables can be found in the Database/UniversityDBMS folder.
 
-3. Please open the following files,
+4. Please open the following files,
   - header.php
   - Professors/header.php
   - RegistrarOffice/registrarHeader.php
@@ -27,6 +27,6 @@ to your database information
  
  *Please note: As we continue to work on our project, you might need to change the database info on other files as well.
  
- 4. Go to localhost/UniversityDBMS/home
+5. Go to localhost/UniversityDBMS/home
  
 
