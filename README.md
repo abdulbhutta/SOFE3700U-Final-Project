@@ -1,5 +1,4 @@
-# SOFE3700U-Final-Project
-University DBMS
+# University DBMS
 
 To run the application on your computer,
 
