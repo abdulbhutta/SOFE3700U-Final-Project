@@ -1,4 +1,4 @@
-# University DBMS
+# University Database Management System
 
 To run the application on your computer,
 
